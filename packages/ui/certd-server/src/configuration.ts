@@ -47,7 +47,7 @@ export class MainConfiguration {
   async onReady() {
     // add middleware
     // this.app.useMiddleware([ReportMiddleware]);
-    // add filter
+    // add filter 
     // this.app.useFilter([NotFoundFilter, DefaultErrorFilter]);
     //跨域
     this.app.use(
