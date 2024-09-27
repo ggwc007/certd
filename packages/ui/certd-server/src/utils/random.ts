@@ -12,7 +12,7 @@ function randomStr(length, options?) {
   options || (options = {});
 
   let chars = '';
-  let result = '';
+  let result = ''; 
 
   if (options === true) {
     chars = numbers + letters;
